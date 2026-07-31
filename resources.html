@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources | Machine Learning Lab</title>
+    <meta name="description" content="Computing systems and BCI equipment available at the Machine Learning Lab, Department of Mathematics, IIST.">
+    <link rel="icon" href="assets/iist_logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-lab sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/iist_logo.png" alt="IIST Logo" width="52" height="52">
+                <div class="text-container">
+                    <span class="lab-name">Machine Learning Lab</span>
+                    <span class="dept-name">Department of Mathematics, IIST</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="team.html">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="resources.html">Resources</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <div class="container">
+            <h1>Lab Resources</h1>
+            <p>Computing infrastructure and brain-computer interface equipment available to lab members.</p>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+        <nav class="pub-nav mb-5">
+            <a href="#bci-device"><i class="bi bi-activity me-1"></i>BCI Device</a>
+            <a href="#workstations"><i class="bi bi-gpu-card me-1"></i>Workstations</a>
+            <a href="#general-systems"><i class="bi bi-pc-display me-1"></i>General-Purpose Systems</a>
+        </nav>
+
+        <!-- BCI Device -->
+        <section id="bci-device">
+            <h2 class="pub-section-title mt-0"><i class="bi bi-activity"></i>Brain-Computer Interface Device</h2>
+
+            <div class="info-panel mb-4">
+                <p class="mb-0">
+                    The lab uses the <strong>OpenBCI Cyton+Daisy</strong>, an advanced, open-source biosensing platform for EEG, EMG (electromyography) and ECG (electrocardiography) data acquisition. It provides 16 high-resolution channels, a 24-bit ADC, and wireless connectivity via Bluetooth or USB, and is compatible with OpenBCI GUI, Python, MATLAB and BrainFlow &mdash; making it well suited for BCI research, neurofeedback and brain-controlled applications.
+                </p>
+            </div>
+
+            <div class="row g-3 mb-4">
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-motherboard"></i></span>
+                            <div><span class="spec-label">Model</span><span class="spec-value">OpenBCI Cyton+Daisy</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-columns-gap"></i></span>
+                            <div><span class="spec-label">Channels</span><span class="spec-value">16 (8 Cyton + 8 Daisy)</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-speedometer2"></i></span>
+                            <div><span class="spec-label">Sampling Rate</span><span class="spec-value">250 Hz per channel</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-sliders"></i></span>
+                            <div><span class="spec-label">ADC Resolution</span><span class="spec-value">24-bit</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-usb-symbol"></i></span>
+                            <div><span class="spec-label">Communication</span><span class="spec-value">USB (via Dongle)</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-lightning-charge"></i></span>
+                            <div><span class="spec-label">Input Impedance</span><span class="spec-value">1 G&Omega;</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-sliders2"></i></span>
+                            <div><span class="spec-label">Gain Settings</span><span class="spec-value">1x, 2x, 4x, 6x, 8x, 12x, 24x</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-battery-charging"></i></span>
+                            <div><span class="spec-label">Power Supply</span><span class="spec-value">3.7V LiPo (500mAh)</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-battery-full"></i></span>
+                            <div><span class="spec-label">Battery Life</span><span class="spec-value">~10&ndash;12 hours</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-window"></i></span>
+                            <div><span class="spec-label">OS Compatibility</span><span class="spec-value">Windows, MacOS, Linux</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-code-slash"></i></span>
+                            <div><span class="spec-label">Software Support</span><span class="spec-value">OpenBCI GUI, Python, MATLAB, BrainFlow</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-file-earmark-binary"></i></span>
+                            <div><span class="spec-label">Data Format</span><span class="spec-value">Raw EEG, CSV, JSON</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-broadcast-pin"></i></span>
+                            <div><span class="spec-label">Electrodes</span><span class="spec-value">Active and Passive</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                    <div class="spec-tile">
+                        <div class="spec-item">
+                            <span class="spec-icon"><i class="bi bi-stars"></i></span>
+                            <div><span class="spec-label">Applications</span><span class="spec-value">EEG, EMG, ECG, BCI, Neuroscience</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h5 class="mb-3">Quick Setup Guide</h5>
+            <div class="accordion" id="bciAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#bciSetup">
+                            Setup and Connection
+                        </button>
+                    </h2>
+                    <div id="bciSetup" class="accordion-collapse collapse show" data-bs-parent="#bciAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Ensure the Cyton+Daisy board is fully charged before use.</li>
+                                <li>Connect the OpenBCI USB dongle to your computer.</li>
+                                <li>Power on the Cyton board using the switch on the side.</li>
+                                <li>Pair the device with your computer via Bluetooth (RFduino) or USB.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bciElectrode">
+                            Electrode Placement
+                        </button>
+                    </h2>
+                    <div id="bciElectrode" class="accordion-collapse collapse" data-bs-parent="#bciAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Use the conductive gel for better signal quality.</li>
+                                <li>Attach electrodes securely according to the required montage (EEG, EMG, ECG).</li>
+                                <li>Ensure good skin contact and minimize movement artifacts.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bciSoftware">
+                            Software and Data Acquisition
+                        </button>
+                    </h2>
+                    <div id="bciSoftware" class="accordion-collapse collapse" data-bs-parent="#bciAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Open OpenBCI GUI or BrainFlow-compatible software, downloadable from <a href="https://openbci.com/downloads" target="_blank" rel="noopener">openbci.com/downloads</a>.</li>
+                                <li>Select the Cyton (16-channel) mode in the GUI.</li>
+                                <li>Click "Start Data Stream" to begin recording signals.</li>
+                                <li>Adjust gain settings (1x, 2x, 4x, etc.) for optimal signal clarity.</li>
+                                <li>Save raw data in *.csv or *.txt format and post-process with Python or MATLAB.</li>
+                                <li>Apply filters to remove noise (e.g., a notch filter for powerline interference).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#bciSafety">
+                            Safety and Maintenance
+                        </button>
+                    </h2>
+                    <div id="bciSafety" class="accordion-collapse collapse" data-bs-parent="#bciAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Do not expose the device to moisture or extreme temperatures.</li>
+                                <li>Turn off the board after use to conserve battery life.</li>
+                                <li>Store the device and electrodes in a dry, safe place.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- High-Performance Workstations -->
+        <section id="workstations" class="mt-5 pt-3">
+            <h2 class="pub-section-title mt-0"><i class="bi bi-gpu-card"></i>High-Performance Workstations (W-Series)</h2>
+            <p class="section-subtitle mb-4">These systems are intended for intensive computational tasks such as machine learning, data processing, and development requiring dedicated graphics power.</p>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W1</h5>
+                            <span class="ws-os-badge">Ubuntu</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon Gold 6146 @ 4.2 GHz (12 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">64 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">4.5 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-ssd"></i></span><div><span class="spec-label">SSD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA RTX A5000 (24 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">PyCharm</span><span class="tag-chip">GitHub</span><span class="tag-chip">AnyDesk</span><span class="tag-chip">MATLAB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W2</h5>
+                            <span class="ws-os-badge">Windows 10 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon Gold 6146 @ 3.2 GHz (12 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">64 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">3.6 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-ssd"></i></span><div><span class="spec-label">SSD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA RTX A5000 (24 GB total)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">GitHub</span><span class="tag-chip">Jupyter Lab</span><span class="tag-chip">AnyDesk</span><span class="tag-chip">Neo4j Desktop</span><span class="tag-chip">MySQL</span><span class="tag-chip">MATLAB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W3</h5>
+                            <span class="ws-os-badge">Windows 10 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon E5-2620 v4 @ 2.1 GHz (8 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">32 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">1 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA Quadro P2000 (5 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">GitHub</span><span class="tag-chip">Jupyter Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W4</h5>
+                            <span class="ws-os-badge">Windows 10 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon E2520 @ 3.2 GHz (16x2 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">32 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">1 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA Quadro P2000 (5 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">GitHub</span><span class="tag-chip">Jupyter Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W5</h5>
+                            <span class="ws-os-badge">Windows 10 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon E5-2630 @ 2.4 GHz (16 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">80 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">1 TB + 2 TB + 512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA GTX 1080Ti (11 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">GitHub</span><span class="tag-chip">Jupyter Lab</span><span class="tag-chip">OpenBCI GUI</span><span class="tag-chip">Arduino IDE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W6</h5>
+                            <span class="ws-os-badge">Windows 10 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon E5-2630 @ 2.4 GHz (16 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">80 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">1 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-ssd"></i></span><div><span class="spec-label">SSD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA GTX 1080Ti (11 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">GitHub</span><span class="tag-chip">Jupyter Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W7</h5>
+                            <span class="ws-os-badge">Windows 10 Pro, Ubuntu 23.04.6</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon E5-2630 @ 2.4 GHz (16 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">80 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">1 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA Quadro K4200 (8 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">GitHub</span><span class="tag-chip">Jupyter Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W8</h5>
+                            <span class="ws-os-badge">Windows 10 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Xeon Gold 6146 @ 3.2 GHz (12 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">32 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">2 TB + 4 TB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-ssd"></i></span><div><span class="spec-label">SSD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA RTX A5000 (24 GB total)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Visual Studio Code</span><span class="tag-chip">Jupyter Lab</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>W9</h5>
+                            <span class="ws-os-badge">Windows 11 Pro</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">AMD Ryzen Threadripper PRO 5975WX (32 Cores)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">256 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-ssd"></i></span><div><span class="spec-label">SSD</span><span class="spec-value">2 TB (SATA) + 2 TB (SATA) + 1 TB (NVMe)</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">GPU</span><span class="spec-value">NVIDIA RTX A6000 (48 GB)</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip text-muted">Not listed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- General-Purpose Systems -->
+        <section id="general-systems" class="mt-5 pt-3">
+            <h2 class="pub-section-title"><i class="bi bi-pc-display"></i>General-Purpose Systems (D-Series)</h2>
+            <p class="section-subtitle mb-4">These systems suit general computing tasks, programming, and internet browsing. They come with Ubuntu 20.04.6 LTS and are equipped with Jupyter Lab, internet browsers, and Python 3.</p>
+
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D1</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">8 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D2</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">4 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D3</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">4 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D4</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">8 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D5</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6, Windows 8</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">4 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D6</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">4 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D7</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6, Windows 8</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">2 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4">
+                    <div class="ws-card">
+                        <div class="ws-card-header">
+                            <h5>D8</h5>
+                            <span class="ws-os-badge">Ubuntu 20.04.6, Windows 8</span>
+                        </div>
+                        <div class="spec-grid">
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-cpu"></i></span><div><span class="spec-label">Processor</span><span class="spec-value">Intel Core i5-4570 @ 3.2 GHz</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-memory"></i></span><div><span class="spec-label">RAM</span><span class="spec-value">2 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-device-hdd"></i></span><div><span class="spec-label">HDD</span><span class="spec-value">512 GB</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-gpu-card"></i></span><div><span class="spec-label">Graphics</span><span class="spec-value">Intel HD Graphics 2500</span></div></div>
+                            <div class="spec-item"><span class="spec-icon"><i class="bi bi-display"></i></span><div><span class="spec-label">Display</span><span class="spec-value">17", 1366x768, HD</span></div></div>
+                        </div>
+                        <div class="ws-software">
+                            <span class="spec-label">Software</span>
+                            <div class="tag-list">
+                                <span class="tag-chip">Jupyter Lab</span><span class="tag-chip">Python 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="info-panel mb-5">
+            <h5 class="mb-3"><i class="bi bi-shield-check me-2"></i>Usage Guidelines</h5>
+            <ul>
+                <li><strong>Software and OS Restrictions:</strong> Do not install or modify system software without administrator permission.</li>
+                <li><strong>Storage Usage:</strong> Store large datasets in designated directories to avoid system slowdowns.</li>
+                <li><strong>Internet Usage:</strong> Do not download unauthorized software or visit restricted websites.</li>
+                <li><strong>Data Security:</strong> Back up your work regularly to avoid data loss.</li>
+                <li><strong>Power Management:</strong> Shut down systems properly after use.</li>
+            </ul>
+            <p class="mt-3 mb-0 text-muted">For technical support or issues with any system, contact the course instructors.</p>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-5">
+                    <div class="footer-brand">
+                        <img src="assets/iist_logo.png" alt="IIST Logo">
+                        <strong>Machine Learning Lab<br><small style="font-weight:400;color:rgba(255,255,255,.6);">Department of Mathematics, IIST</small></strong>
+                    </div>
+                    <p>Room No. L004B, Department of Mathematics (D1 Block), Indian Institute of Space Science and Technology, Thiruvananthapuram, Kerala, PIN&nbsp;695547</p>
+                </div>
+                <div class="col-md-3">
+                    <h6>Quick Links</h6>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h6>Connect</h6>
+                    <ul>
+                        <li><i class="bi bi-envelope me-2"></i><a href="mailto:mllabiist@gmail.com">mllabiist@gmail.com</a></li>
+                        <li><i class="bi bi-geo-alt me-2"></i>Thiruvananthapuram, Kerala</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2025 Machine Learning Lab. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
